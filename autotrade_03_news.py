@@ -15,7 +15,7 @@ def get_bitcoin_news(api_key, query="bitcoin", location="us", language="en", num
     SerpAPI를 사용하여 Google News에서 뉴스 기사의 제목과 날짜를 가져옵니다.
     """
     params = {
-        "engine": "google_news", "q": query, "gl": location,
+        "engine": "google_news", "q": f"{query} when:3d", "gl": location,
         "hl": language, "api_key": api_key
     }
     api_url = "https://serpapi.com/search.json"
