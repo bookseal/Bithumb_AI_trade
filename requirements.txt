@@ -4,4 +4,3 @@ python-bithumb>=0.1.2
 schedule
 streamlit
 plotly
-
