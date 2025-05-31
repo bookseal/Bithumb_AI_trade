@@ -1,5 +1,7 @@
 python-dotenv
 openai
-python-bithumb
-
+python-bithumb>=0.1.2
+schedule
+streamlit
+plotly
 
